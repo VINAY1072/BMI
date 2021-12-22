@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="font-family: 'The Nautigal', cursive;">BMI CALCULATOR</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.gif">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Nova+Round&family=Sacramento&family=The+Nautigal&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1> " THE BEST INVESTMENT YOU CAN EVER MAKE IS IN YOUR OWN HEALTH " </h1>
+    <h3> Created By Vinay </h3>
+    <div class="BMI"><img src="istockphoto-1136546873-612x612.jpg" alt="BMI"></div>
+    <h2> Know your Body Mass Index Value Below </h2>
+    <div class="INPUT">
+        <label for="weight-input" id="wlabel">Weight (IN Kilo Gram's) : </label><input type="number" id="weight-input" placeholder="your weight"><br><br>
+        <label for="height-input" id="hlabel">Height (IN Centi Meter's) : </label><input type="number" id="height-input" placeholder="your height"><br><br>
+        <button id="clacButt" >Calculate</button>
+        <p>click on the 'Calculate' Button to get the result</p>
+        <label for="bmi-output" id="bmilabel">Your BMI Value : </label><output type="number" id="bmi-output"><br><br><br>
+    </div>
+    <div class="table"> 
+        <table>
+            <caption style="color: aliceblue;"> BMI Table: </caption>
+            <tr>
+                <th>Under Weight</th>
+                <th>Healthy</th>
+                <th>Over Weight</th>
+                <th>Obese</th>
+            </tr>
+            <tr>
+                <td>Below 18.5</td>
+                <td>18.5 - 24.9</td>
+                <td>25.0 - 29.9 </td>
+                <td>30.0 and Above</td>
+            </tr>
+        </table>
+    </div>
+    <p class = "result" id="result"></p>
+    <script src="script.js"></script>
+</body>
+</html>

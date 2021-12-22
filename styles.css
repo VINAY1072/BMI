@@ -1,0 +1,113 @@
+body {
+  background: #0f2027; /* fallback for old browsers */
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  color: #fff;
+}
+
+h1 {
+  color: #f5eedc;
+  text-align: center;
+  font-family: "Nova Round", cursive;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-size: xx-large;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+h3 {
+  color: #f5eedc;
+  text-align: right;
+  font-family: "Sacramento", cursive;
+}
+
+div.BMI {
+  text-align: center;
+  border-radius: 60px;
+  box-shadow: 0px 1px 3px #666666;
+}
+
+div.INPUT {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+button {
+  cursor: pointer;
+  background: #98bae7;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 2px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #d3e4cd;
+  background-image: -webkit-linear-gradient(top, #d3e4cd, #3498db);
+  background-image: -moz-linear-gradient(top, #d3e4cd, #3498db);
+  background-image: -ms-linear-gradient(top, #d3e4cd, #3498db);
+  background-image: -o-linear-gradient(top, #d3e4cd, #3498db);
+  background-image: linear-gradient(to bottom, #d3e4cd, #3498db);
+  text-decoration: none;
+}
+
+input {
+  color: #333;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 1.5rem 2rem;
+  border-radius: 0.2rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  width: 15%;
+  border-bottom: 0.3rem solid transparent;
+  transition: all 0.3s;
+}
+
+input:focus {
+  border: 3px solid #555;
+}
+
+output {
+  display: inline;
+  font-family: "Times New Roman", Times, serif;
+}
+
+table {
+  height: 100px;
+  width: 550px;
+  background-color: #d3e4cd;
+  margin: 0 auto;
+  border: 5px solid #555;
+}
+
+table,
+th,
+td {
+  margin: auto;
+  text-align: center;
+  border: 1px solid black;
+  color: black;
+}
+
+p.result {
+  font-size: xx-large;
+  color: #f5eedc;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
